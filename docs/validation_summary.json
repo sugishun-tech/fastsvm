@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-06",
+  "pytest": {
+    "native_openmp": 102,
+    "portable_installed_wheel": 102,
+    "debug_checked": 102
+  },
+  "estimator_checks": {
+    "SVC": {
+      "passed": 62,
+      "failed": 0,
+      "warnings": []
+    },
+    "SVR": {
+      "passed": 58,
+      "failed": 0,
+      "warnings": []
+    },
+    "OneClassSVM": {
+      "passed": 52,
+      "failed": 0,
+      "warnings": []
+    },
+    "LinearSVC": {
+      "passed": 63,
+      "failed": 0,
+      "warnings": [
+        "Dual coordinate descent reached max_iter before the KKT tolerance. Standardize X, increase max_iter, or relax tol."
+      ]
+    },
+    "LinearSVR": {
+      "passed": 59,
+      "failed": 0,
+      "warnings": [
+        "Dual coordinate descent reached max_iter before the KKT tolerance. Standardize X, increase max_iter, or relax tol."
+      ]
+    },
+    "RBFSampler": {
+      "passed": 47,
+      "failed": 0,
+      "warnings": []
+    },
+    "Nystroem": {
+      "passed": 47,
+      "failed": 0,
+      "warnings": []
+    },
+    "KernelCenterer": {
+      "passed": 48,
+      "failed": 0,
+      "warnings": []
+    }
+  },
+  "portable_estimator_checks": {
+    "passed": 436,
+    "failed": 0
+  },
+  "examples": {
+    "approximation.py": "passed",
+    "classification.py": "passed",
+    "mathematics.py": "passed",
+    "regression_and_outliers.py": "passed"
+  },
+  "remote_ci_executed": false,
+  "os_validated": [
+    "Linux x86_64"
+  ],
+  "python_validated": [
+    "3.13.5"
+  ],
+  "core_source_sha256": {
+    "src/fastsvm/__init__.py": "4fe09bd8359873bbf6e148f1c9e54f050041aca7d323bac15bb8bc9563122257",
+    "src/fastsvm/_core.pyx": "47f8478ef6b63e23e8b32b8047a4bf0c385e0b4185ff4311e5e182b6143463a4",
+    "src/fastsvm/_validation.py": "2c00f1193fc47e5b9bdcc743b9142a0cbbad9ae69a0bf5da4d36803073b6510f",
+    "src/fastsvm/analysis.py": "773cd28ff5783810c7c10512b2baabb7e100d6c3b3a08352e912760a4515ecf6",
+    "src/fastsvm/approximation.py": "d1b3416b80546afab064b096df40e0399e1b07ca070f58f43dc4d3d08f7a3b4a",
+    "src/fastsvm/kernels.py": "3ae464609d33c222eb34efc1255a5dfb44383474650a643fb1c7dbd56c579a24",
+    "src/fastsvm/linear.py": "290beb2b6f2f8149bc07489a80a36e7e8e33c8952a48270fc48d07670f201416",
+    "src/fastsvm/svm.py": "ed5e34403d9dda7668abd997ae7621a260c07667a3f0aea7b00071162823d04d"
+  },
+  "article_python_examples": {
+    "count": 9,
+    "result": "passed"
+  },
+  "packaging": {
+    "portable_wheel_built_from_clean_source": true,
+    "portable_wheel_install_tested": true,
+    "source_distribution_built": true
+  }
+}

@@ -1,0 +1,3534 @@
+{
+  "SVC": {
+    "checks": [
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_tags_renamed",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_valid_tag_types",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_repr",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_no_attributes_set_in_init",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit_score_takes_y",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_overwrite_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_dont_overwrite_parameters",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_fit_returns_self",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_readonly_memmap_input",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_unfitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_do_not_raise_errors_in_init_or_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_n_features_in_after_fitting",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_mixin_order",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_positive_only_tag_during_fit",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_dtypes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weights_pandas_series",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weights_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weights_list",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weights_shape",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weights_not_overwritten",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weight_equivalence_on_dense_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_complex_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_dtype_object",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_empty_data_messages",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_pipeline_consistency",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_nan_inf",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_sparse_tag",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_sparse_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_sparse_matrix",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_f_contiguous_array_estimator",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_classifier_data_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_classifiers_one_label",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_classifiers_one_label_sample_weights",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_classifiers_classes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_partial_fit_n_features",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_classifiers_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_classifiers_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_classifiers_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_classifiers_regression_target",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_supervised_y_no_nan",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_supervised_y_2d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_class_weight_classifiers",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_non_transformer_estimators_n_iter",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_decision_proba_consistency",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_parameters_default_constructible",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_methods_sample_order_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_methods_subset_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit2d_1sample",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit2d_1feature",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_get_params_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_dict_unchanged",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit_idempotent",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit_check_is_fitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_n_features_in",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit2d_predict1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVC(gamma=0.4, tol=1e-10)",
+        "check_name": "check_requires_y_none",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      }
+    ],
+    "warnings": []
+  },
+  "SVR": {
+    "checks": [
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_tags_renamed",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_valid_tag_types",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_repr",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_no_attributes_set_in_init",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit_score_takes_y",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_overwrite_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_dont_overwrite_parameters",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_fit_returns_self",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_readonly_memmap_input",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_unfitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_do_not_raise_errors_in_init_or_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_n_features_in_after_fitting",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_mixin_order",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_positive_only_tag_during_fit",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_dtypes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weights_pandas_series",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weights_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weights_list",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weights_shape",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weights_not_overwritten",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_sample_weight_equivalence_on_dense_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_complex_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_dtype_object",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_empty_data_messages",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_pipeline_consistency",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_nan_inf",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_sparse_tag",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_sparse_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimator_sparse_matrix",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_f_contiguous_array_estimator",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_regressors_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_regressors_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_regressors_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_regressor_data_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_estimators_partial_fit_n_features",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_regressors_no_decision_function",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_supervised_y_2d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_supervised_y_no_nan",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_regressors_int",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_non_transformer_estimators_n_iter",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_parameters_default_constructible",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_methods_sample_order_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_methods_subset_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit2d_1sample",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit2d_1feature",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_get_params_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_dict_unchanged",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit_idempotent",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit_check_is_fitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_n_features_in",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_fit2d_predict1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "SVR(gamma=0.4, tol=1e-10)",
+        "check_name": "check_requires_y_none",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      }
+    ],
+    "warnings": []
+  },
+  "OneClassSVM": {
+    "checks": [
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimator_tags_renamed",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_valid_tag_types",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimator_repr",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_no_attributes_set_in_init",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_fit_score_takes_y",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimators_overwrite_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_dont_overwrite_parameters",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimators_fit_returns_self",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_readonly_memmap_input",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimators_unfitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_do_not_raise_errors_in_init_or_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_n_features_in_after_fitting",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_mixin_order",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_positive_only_tag_during_fit",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimators_dtypes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_sample_weights_pandas_series",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_sample_weights_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_sample_weights_list",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_sample_weights_shape",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_sample_weights_not_overwritten",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_sample_weight_equivalence_on_dense_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_complex_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_dtype_object",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimators_empty_data_messages",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_pipeline_consistency",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimators_nan_inf",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimator_sparse_tag",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimator_sparse_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimator_sparse_matrix",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_f_contiguous_array_estimator",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_outliers_fit_predict",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_outliers_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_outliers_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_classifier_data_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_non_transformer_estimators_n_iter",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_parameters_default_constructible",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_methods_sample_order_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_methods_subset_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_fit2d_1sample",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_fit2d_1feature",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_get_params_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_dict_unchanged",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_fit_idempotent",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_fit_check_is_fitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_n_features_in",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_fit1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "OneClassSVM(gamma=0.4, tol=1e-11)",
+        "check_name": "check_fit2d_predict1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      }
+    ],
+    "warnings": []
+  },
+  "LinearSVC": {
+    "checks": [
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_tags_renamed",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_valid_tag_types",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_repr",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_no_attributes_set_in_init",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit_score_takes_y",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_overwrite_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_dont_overwrite_parameters",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_fit_returns_self",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_readonly_memmap_input",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_unfitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_do_not_raise_errors_in_init_or_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_n_features_in_after_fitting",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_mixin_order",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_positive_only_tag_during_fit",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_dtypes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weights_pandas_series",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weights_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weights_list",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weights_shape",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weights_not_overwritten",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weight_equivalence_on_dense_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weight_equivalence_on_sparse_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_complex_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_dtype_object",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_empty_data_messages",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_pipeline_consistency",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_nan_inf",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_sparse_tag",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_sparse_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_sparse_matrix",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_f_contiguous_array_estimator",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_classifier_data_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_classifiers_one_label",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_classifiers_one_label_sample_weights",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_classifiers_classes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_partial_fit_n_features",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_classifiers_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_classifiers_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_classifiers_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_classifiers_regression_target",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_supervised_y_no_nan",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_supervised_y_2d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_class_weight_classifiers",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_non_transformer_estimators_n_iter",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_decision_proba_consistency",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_parameters_default_constructible",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_methods_sample_order_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_methods_subset_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit2d_1sample",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit2d_1feature",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_get_params_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_dict_unchanged",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit_idempotent",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit_check_is_fitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_n_features_in",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit2d_predict1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVC(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_requires_y_none",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      }
+    ],
+    "warnings": [
+      "Dual coordinate descent reached max_iter before the KKT tolerance. Standardize X, increase max_iter, or relax tol."
+    ]
+  },
+  "LinearSVR": {
+    "checks": [
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_tags_renamed",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_valid_tag_types",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_repr",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_no_attributes_set_in_init",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit_score_takes_y",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_overwrite_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_dont_overwrite_parameters",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_fit_returns_self",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_readonly_memmap_input",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_unfitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_do_not_raise_errors_in_init_or_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_n_features_in_after_fitting",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_mixin_order",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_positive_only_tag_during_fit",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_dtypes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weights_pandas_series",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weights_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weights_list",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weights_shape",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weights_not_overwritten",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weight_equivalence_on_dense_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_sample_weight_equivalence_on_sparse_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_complex_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_dtype_object",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_empty_data_messages",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_pipeline_consistency",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_nan_inf",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_sparse_tag",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_sparse_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimator_sparse_matrix",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_f_contiguous_array_estimator",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_regressors_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_regressors_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_regressors_train",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_regressor_data_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_estimators_partial_fit_n_features",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_regressors_no_decision_function",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_supervised_y_2d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_supervised_y_no_nan",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_regressors_int",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_non_transformer_estimators_n_iter",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_parameters_default_constructible",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_methods_sample_order_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_methods_subset_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit2d_1sample",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit2d_1feature",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_get_params_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_dict_unchanged",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit_idempotent",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit_check_is_fitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_n_features_in",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_fit2d_predict1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "LinearSVR(max_iter=100000, random_state=0, tol=1e-10)",
+        "check_name": "check_requires_y_none",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      }
+    ],
+    "warnings": [
+      "Dual coordinate descent reached max_iter before the KKT tolerance. Standardize X, increase max_iter, or relax tol."
+    ]
+  },
+  "RBFSampler": {
+    "checks": [
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimator_tags_renamed",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_valid_tag_types",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimator_repr",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_no_attributes_set_in_init",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_fit_score_takes_y",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimators_overwrite_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_dont_overwrite_parameters",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimators_fit_returns_self",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_readonly_memmap_input",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimators_unfitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_do_not_raise_errors_in_init_or_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_n_features_in_after_fitting",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_mixin_order",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_positive_only_tag_during_fit",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimators_dtypes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_complex_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_dtype_object",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimators_empty_data_messages",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_pipeline_consistency",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimators_nan_inf",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimator_sparse_tag",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimator_sparse_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimator_sparse_matrix",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_f_contiguous_array_estimator",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_transformer_data_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_transformer_general",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_transformer_preserve_dtypes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_transformer_general",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_transformers_unfitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_transformer_n_iter",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_parameters_default_constructible",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_methods_sample_order_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_methods_subset_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_fit2d_1sample",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_fit2d_1feature",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_get_params_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_dict_unchanged",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_fit_idempotent",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_fit_check_is_fitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_n_features_in",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_fit1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "RBFSampler(n_components=20, random_state=0)",
+        "check_name": "check_fit2d_predict1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      }
+    ],
+    "warnings": []
+  },
+  "Nystroem": {
+    "checks": [
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimator_tags_renamed",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_valid_tag_types",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimator_repr",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_no_attributes_set_in_init",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_fit_score_takes_y",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimators_overwrite_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_dont_overwrite_parameters",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimators_fit_returns_self",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_readonly_memmap_input",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimators_unfitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_do_not_raise_errors_in_init_or_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_n_features_in_after_fitting",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_mixin_order",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_positive_only_tag_during_fit",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimators_dtypes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_complex_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_dtype_object",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimators_empty_data_messages",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_pipeline_consistency",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimators_nan_inf",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimator_sparse_tag",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimator_sparse_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimator_sparse_matrix",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_f_contiguous_array_estimator",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_transformer_data_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_transformer_general",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_transformer_preserve_dtypes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_transformer_general",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_transformers_unfitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_transformer_n_iter",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_parameters_default_constructible",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_methods_sample_order_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_methods_subset_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_fit2d_1sample",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_fit2d_1feature",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_get_params_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_dict_unchanged",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_fit_idempotent",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_fit_check_is_fitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_n_features_in",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_fit1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "Nystroem(n_components=5, random_state=0)",
+        "check_name": "check_fit2d_predict1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      }
+    ],
+    "warnings": []
+  },
+  "KernelCenterer": {
+    "checks": [
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimator_cloneable",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimator_tags_renamed",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_valid_tag_types",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimator_repr",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_no_attributes_set_in_init",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_fit_score_takes_y",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimators_overwrite_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_dont_overwrite_parameters",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimators_fit_returns_self",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_readonly_memmap_input",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimators_unfitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_do_not_raise_errors_in_init_or_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_n_features_in_after_fitting",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_mixin_order",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_positive_only_tag_during_fit",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimators_dtypes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_complex_data",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_dtype_object",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimators_empty_data_messages",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_pipeline_consistency",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimators_nan_inf",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_nonsquare_error",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimator_sparse_tag",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimator_sparse_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimator_sparse_matrix",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_estimators_pickle",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_f_contiguous_array_estimator",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_transformer_data_not_an_array",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_transformer_general",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_transformer_preserve_dtypes",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_transformer_general",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_transformers_unfitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_transformer_n_iter",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_parameters_default_constructible",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_methods_sample_order_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_methods_subset_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_fit2d_1sample",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_fit2d_1feature",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_get_params_invariance",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_set_params",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_dict_unchanged",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_fit_idempotent",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_fit_check_is_fitted",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_n_features_in",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_fit1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      },
+      {
+        "estimator": "KernelCenterer()",
+        "check_name": "check_fit2d_predict1d",
+        "exception": "None",
+        "status": "passed",
+        "expected_to_fail": false,
+        "expected_to_fail_reason": "Check is not expected to fail"
+      }
+    ],
+    "warnings": []
+  }
+}

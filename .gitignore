@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.venv/
+src/fastsvm/_core.c
+src/fastsvm/_core.html

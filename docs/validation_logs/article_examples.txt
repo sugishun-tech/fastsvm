@@ -1,0 +1,37 @@
+=== Python example 1/9 ===
+{'openmp': True, 'backend': 'Cython/C', 'precision': 'float64'}
+=== Python example 2/9 ===
+{'svc__C': 8, 'svc__gamma': 1}
+0.976
+[{'primal_objective': 240.45112644485488, 'dual_objective': 240.43875281990387, 'duality_gap': 0.012373624951010243, 'relative_duality_gap': 5.14600415226086e-05, 'kkt_violation': 0.0009329957826994528, 'equality_residual': 6.938893903907228e-16, 'box_violation': 0.0, 'n_iter': 166, 'converged': True, 'rkhs_norm_squared': 124.21146918563024, 'n_support': 49, 'cache_hits': 278, 'cache_misses': 54, 'cache_bytes': 4500000, 'min_active_size': 16, 'shrinking_steps': 1, 'gram_psd_checked': False, 'duality_gap_requires_psd': True}]
+=== Python example 3/9 ===
+primal_objective 88.7885734346922
+dual_objective 88.7885733969315
+duality_gap 3.7760699456157454e-08
+relative_duality_gap 4.2528782697395255e-10
+kkt_violation 6.743190755775785e-09
+equality_residual 3.1086244689504383e-15
+box_violation 0.0
+converged True
+y^T alpha = 3.1086244689504383e-15
+history shape = (6, 3)
+=== Python example 4/9 ===
+(2, 3)
+(2, 3, 3)
+=== Python example 5/9 ===
+[-0.17209733 -0.07435222]
+=== Python example 6/9 ===
+True 100
+9.11323740656754e-07 32695535.87836665
+0.9999999999999999
+=== Python example 7/9 ===
+0.968
+=== Python example 8/9 ===
+(100, 64) 64
+=== Python example 9/9 ===
+0.01 0.57 [{'primal_objective': 0.9770411144480154, 'dual_objective': 0.9770411144357517, 'duality_gap': 1.2263745574614404e-11, 'relative_duality_gap': 1.2263745574614404e-11, 'kkt_violation': 1.4467108817362018e-05, 'converged': True, 'n_iter': 10, 'weight_norm_squared': 0.016658789806913633, 'intercept_regularized': True}]
+0.1 0.57 [{'primal_objective': 9.657076065983187, 'dual_objective': 9.657076065315346, 'duality_gap': 6.678408936977576e-10, 'relative_duality_gap': 6.915560042549636e-11, 'kkt_violation': 6.816294971678794e-05, 'converged': True, 'n_iter': 29, 'weight_norm_squared': 0.038310378946505685, 'intercept_regularized': True}]
+1.0 0.56 [{'primal_objective': 96.3886898402802, 'dual_objective': 96.38868983032603, 'duality_gap': 9.954163715519826e-09, 'relative_duality_gap': 1.0327107601539415e-10, 'kkt_violation': 9.038805426242469e-05, 'converged': True, 'n_iter': 233, 'weight_norm_squared': 0.04274063423513569, 'intercept_regularized': True}]
+10.0 0.56 [{'primal_objective': 963.6934814055857, 'dual_objective': 963.6934813039496, 'duality_gap': 1.0163603292312473e-07, 'relative_duality_gap': 1.0546510367060333e-10, 'kkt_violation': 9.876734396363496e-05, 'converged': True, 'n_iter': 2276, 'weight_norm_squared': 0.043226926092988206, 'intercept_regularized': True}]
+[-0.18730704  0.7433822   1.          1.83993664  2.78219355]
+ALL ARTICLE PYTHON EXAMPLES PASSED: 9

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77", "Cython>=3.1,<4", "numpy>=2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastsvm"
+version = "0.1.0"
+description = "Cython/C SVM solvers with inspectable optimization and a scikit-learn-style API"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["numpy>=2.0", "scipy>=1.11", "scikit-learn>=1.6", "joblib>=1.3", "threadpoolctl>=3.1"]
+classifiers = ["Programming Language :: Python :: 3", "Programming Language :: Cython", "Topic :: Scientific/Engineering :: Artificial Intelligence"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "build>=1.2", "ruff>=0.9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+fastsvm = ["*.pyx", "*.pxd", "py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100

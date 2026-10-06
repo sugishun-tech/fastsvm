@@ -1,0 +1,29 @@
+=== examples/approximation.py ===
+RBFSampler held-out accuracy: 0.934
+Nystroem held-out accuracy: 0.936
+=== examples/classification.py ===
+Best parameters: {'svc__C': 2, 'svc__gamma': 1}
+Held-out accuracy: 0.99
+Certificates: [{'primal_objective': 97.32864648383477, 'dual_objective': 97.32419997712692, 'duality_gap': 0.004446506707850517, 'relative_duality_gap': 4.568548796770777e-05, 'kkt_violation': 0.0009734621448609301, 'equality_residual': 1.7763568394002505e-15, 'box_violation': 0.0, 'n_iter': 145, 'converged': True, 'rkhs_norm_squared': 63.208324478702785, 'n_support': 75, 'cache_hits': 208, 'cache_misses': 82, 'cache_bytes': 6480000, 'min_active_size': 21, 'shrinking_steps': 1, 'gram_psd_checked': False, 'duality_gap_requires_psd': True}]
+=== examples/mathematics.py ===
+Certificate: {'primal_objective': 88.7885734346922, 'dual_objective': 88.7885733969315, 'duality_gap': 3.7760699456157454e-08, 'relative_duality_gap': 4.2528782697395255e-10, 'kkt_violation': 6.743190755775785e-09, 'equality_residual': 3.1086244689504383e-15, 'box_violation': 0.0, 'n_iter': 402, 'converged': True, 'rkhs_norm_squared': 66.6538848117355, 'n_support': 52, 'cache_hits': 750, 'cache_misses': 54, 'cache_bytes': 80000, 'min_active_size': 18, 'shrinking_steps': 4, 'gram_psd_checked': False, 'duality_gap_requires_psd': True}
+Dual equality: 3.1086244689504383e-15
+Input gradient: [[ 2.7953004  -1.15542565  0.27783041]
+ [ 0.54101433 -1.88103179 -0.97450589]]
+Input Hessian: [[[ 2.37582059  2.12756376 -0.09113553]
+  [ 2.12756376  2.95973647 -0.27750397]
+  [-0.09113553 -0.27750397  0.03772298]]
+
+ [[ 1.08163681  1.72239153 -0.1332907 ]
+  [ 1.72239153  1.68171192 -0.4561254 ]
+  [-0.1332907  -0.4561254  -0.33637576]]]
+RKHS hyperplane distance: [-0.17209733 -0.07435222]
+Functional margins: [-0.18730704  0.7433822   1.          1.83993664  2.78219355]
+PSD / rank: True 100
+Composite kernel score: 0.9
+=== examples/regression_and_outliers.py ===
+Predictions: [0.09613614 0.19732963]
+Slopes: [[1.02040651]
+ [1.00145148]]
+Inlier/outlier: [ 1 -1]
+Normalized scores: [3.12600266e-01 5.97488655e-57]

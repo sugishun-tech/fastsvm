@@ -1,0 +1,6 @@
+include LICENSE README.md CHANGELOG.md
+recursive-include src/fastsvm *.pyx *.pxd py.typed
+recursive-include docs *.md *.json *.txt
+recursive-include examples *.py
+recursive-include benchmarks *.py *.json
+recursive-include tests *.py

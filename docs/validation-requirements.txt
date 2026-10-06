@@ -1,0 +1,10 @@
+# Executed environment: Python 3.13.5 on Linux x86_64.
+# Validation pins, not a claim that these are universal minimum versions.
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+Cython==3.2.4
+pytest==9.0.2
+joblib==1.5.3
+setuptools==82.0.1
+threadpoolctl==3.6.0
