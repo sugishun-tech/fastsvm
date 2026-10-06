@@ -7,7 +7,7 @@ The training solvers are implemented in this repository. They do not call
 estimator conventions, validation, model selection integration, and optional
 cross-validated probability calibration.
 
-Version 0.1.0 is a CPU implementation. The native source language is **C**, not C++.
+Version 0.1.1 is a CPU implementation. The native source language is **C**, not C++.
 There is no claim of being universally faster than mature SVM libraries.
 
 ## Capabilities

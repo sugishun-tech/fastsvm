@@ -234,7 +234,8 @@ def smo(const double[:, ::1] X, const int64_t[::1] mapping,
     cdef double* rj
     if n==0 or X.shape[0]==0 or X.shape[1]==0:
         raise ValueError("Empty optimization problem.")
-    if any(len(arr_check)!=n for arr_check in (signs,p,bounds,initial)):
+    if (signs.shape[0] != n or p.shape[0] != n or
+            bounds.shape[0] != n or initial.shape[0] != n):
         raise ValueError("Incompatible optimization shapes.")
     if (np.asarray(mapping)<0).any() or (np.asarray(mapping)>=X.shape[0]).any():
         raise ValueError("Invalid dual-to-sample mapping.")
@@ -242,9 +243,16 @@ def smo(const double[:, ::1] X, const int64_t[::1] mapping,
         raise ValueError("Invalid kernel or Gram matrix shape.")
     if tol<=0 or max_iter<=0 or cache_mb<=0:
         raise ValueError("Invalid solver controls.")
-    for arr_check in (X,signs,p,bounds,initial):
-        if not np.isfinite(np.asarray(arr_check)).all():
-            raise ValueError("Optimization arrays must be finite.")
+    if not np.isfinite(np.asarray(X)).all():
+        raise ValueError("Optimization arrays must be finite.")
+    if not np.isfinite(np.asarray(signs)).all():
+        raise ValueError("Optimization arrays must be finite.")
+    if not np.isfinite(np.asarray(p)).all():
+        raise ValueError("Optimization arrays must be finite.")
+    if not np.isfinite(np.asarray(bounds)).all():
+        raise ValueError("Optimization arrays must be finite.")
+    if not np.isfinite(np.asarray(initial)).all():
+        raise ValueError("Optimization arrays must be finite.")
     if not np.isin(np.asarray(signs),[-1,1]).all():
         raise ValueError("Signs must be +/-1.")
     if (np.asarray(bounds)<0).any() or (np.asarray(initial)<0).any() or (np.asarray(initial)>np.asarray(bounds)).any():
@@ -486,9 +494,14 @@ def linear_cd(const double[:,::1] X, const double[::1] data,
             raise ValueError("Invalid CSR indices.")
     elif X.shape[0]!=n or X.shape[1]!=d:
         raise ValueError("Invalid dense matrix shape.")
-    for arr in (X,data,target,cost):
-        if not np.isfinite(np.asarray(arr)).all():
-            raise ValueError("Linear solver arrays must be finite.")
+    if not np.isfinite(np.asarray(X)).all():
+        raise ValueError("Linear solver arrays must be finite.")
+    if not np.isfinite(np.asarray(data)).all():
+        raise ValueError("Linear solver arrays must be finite.")
+    if not np.isfinite(np.asarray(target)).all():
+        raise ValueError("Linear solver arrays must be finite.")
+    if not np.isfinite(np.asarray(cost)).all():
+        raise ValueError("Linear solver arrays must be finite.")
     if (np.asarray(cost)<0).any() or not (np.asarray(cost)>0).any():
         raise ValueError("Costs must be nonnegative with a positive entry.")
     if not regression and not np.isin(np.asarray(target),[-1,1]).all():

@@ -1,0 +1,8 @@
+SVC 62 checks 0 failures
+SVR 58 checks 0 failures
+OneClassSVM 52 checks 0 failures
+LinearSVC 63 checks 0 failures
+LinearSVR 59 checks 0 failures
+RBFSampler 47 checks 0 failures
+Nystroem 47 checks 0 failures
+KernelCenterer 48 checks 0 failures

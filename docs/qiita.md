@@ -2,6 +2,9 @@
 
 SVM を高速に使うだけなら、既存の十分に最適化されたライブラリがある。それでも自分で実装する理由を挙げるなら、「最適化の内部状態を、自分で検査できる形で手元に置きたい」からだ。
 
+> **2026-10-06 追記:** v0.1.1 で Cython 3.1+ / Python 3.13 のビルド互換性を修正した。typed memoryview を Python tuple / generator expression に入れていた入力検証を除去し、Python 3.13.5 / Cython 3.2.4 で wheel build、102 pytest、436 estimator checks を再確認している。
+
+
 そこで、Cython から C にコンパイルする SVM プロジェクト **fastsvm** を作った。scikit-learn 風の API を持つが、学習を `sklearn.svm.SVC` などに委譲するラッパーではない。線形モデルの双対座標降下法と、非線形モデルの SMO を独自に実装している。
 
 さらに、主双対ギャップ、KKT 残差、双対変数、解析的な入力勾配・Hessian、Gram 行列のスペクトルといった、数理的に中身を調べる機能も付けた。

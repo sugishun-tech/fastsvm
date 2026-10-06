@@ -1,4 +1,4 @@
-# fastsvm 0.1.0 API リファレンス
+# fastsvm 0.1.1 API リファレンス
 
 Python 側は `BaseEstimator` と適切な mixin を継承し、`get_params()`、`set_params()`、`clone()`、`Pipeline`、`GridSearchCV` に対応する。学習はこのプロジェクトの Cython ソルバーで行う。scikit-learn の全引数・全メソッドの互換実装ではない。
 

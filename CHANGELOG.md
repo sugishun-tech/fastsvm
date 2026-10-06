@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Fixed Cython 3.1+ / Python 3.13 compilation: typed memoryviews are no longer placed in Python tuples/generator expressions during validation.
+- Revalidated isolated wheel builds on Python 3.13.
+
 ## 0.1.0 — 2026-10-06
 
 Initial implementation: Cython/C dual coordinate descent for dense/CSR linear

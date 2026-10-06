@@ -1,7 +1,14 @@
 # 実行済み検証結果
 
-対象: fastsvm 0.1.0。記録日: 2026-10-06。
+対象: fastsvm 0.1.1。記録日: 2026-10-06。
 これは実行結果と限界の記録であり、形式検証・無欠陥の証明・全 OS 対応の保証ではない。
+
+
+## 0.1.1 ビルド回帰テスト
+
+Python 3.13.5 / Cython 3.2.4 / GCC 14.2.0 で、typed memoryview を Python tuple / generator expression に格納していた入力検証を個別 shape / finite チェックへ変更した。`pip wheel . --no-deps --no-build-isolation` が成功し、生成 wheel をインストールした状態で固有 pytest **102 passed**、scikit-learn estimator checks **436 checks / 0 failures** を確認した。
+
+この実行環境は外部ネットワークを持たないため、PEP 517 の build isolation が依存パッケージを新規ダウンロードする経路そのものは再実行していない。ただし、その経路が使用する Cython 3 系と同じコンパイラ処理を Cython 3.2.4 で通している。
 
 ## 1. 実行環境
 

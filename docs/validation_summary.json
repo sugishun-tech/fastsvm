@@ -69,8 +69,8 @@
     "3.13.5"
   ],
   "core_source_sha256": {
-    "src/fastsvm/__init__.py": "4fe09bd8359873bbf6e148f1c9e54f050041aca7d323bac15bb8bc9563122257",
-    "src/fastsvm/_core.pyx": "47f8478ef6b63e23e8b32b8047a4bf0c385e0b4185ff4311e5e182b6143463a4",
+    "src/fastsvm/__init__.py": "35f91c786955211513bc7942337b34c067ac05df964cfcbe7158321a586c026a",
+    "src/fastsvm/_core.pyx": "ebba0777dc0c9cf84be13857340ee04e8efdf0a7df2df3f6e66314df5a048054",
     "src/fastsvm/_validation.py": "2c00f1193fc47e5b9bdcc743b9142a0cbbad9ae69a0bf5da4d36803073b6510f",
     "src/fastsvm/analysis.py": "773cd28ff5783810c7c10512b2baabb7e100d6c3b3a08352e912760a4515ecf6",
     "src/fastsvm/approximation.py": "d1b3416b80546afab064b096df40e0399e1b07ca070f58f43dc4d3d08f7a3b4a",
@@ -86,5 +86,15 @@
     "portable_wheel_built_from_clean_source": true,
     "portable_wheel_install_tested": true,
     "source_distribution_built": true
+  },
+  "release": "0.1.1",
+  "build_regression": {
+    "python": "3.13.5",
+    "cython": "3.2.4",
+    "gcc": "14.2.0",
+    "wheel_build": "passed (--no-build-isolation; build-isolation dependency download unavailable in validation container)",
+    "pytest_passed": 102,
+    "estimator_checks_passed": 436,
+    "estimator_checks_failed": 0
   }
 }

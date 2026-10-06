@@ -3,7 +3,7 @@ from . import _core
 from .linear import LinearSVC, LinearSVR
 from .kernels import Kernel, KernelCenterer, pairwise_kernel, gram_diagnostics, project_psd, kernel_alignment
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 build_info = _core.build_info
 __all__ = ["LinearSVC", "LinearSVR", "Kernel", "KernelCenterer", "pairwise_kernel",
            "gram_diagnostics", "project_psd", "kernel_alignment", "build_info"]
